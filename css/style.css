@@ -1,9 +1,188 @@
+/* global */
+
+
 html{
   box-sizing: border-box;
   scroll-behavior: smooth;
-font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 *,::after, ::before{
   box-sizing: inherit;
 }
+
+a {
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+body {
+  background-color:white;
+}
+
+section{
+  height: 100vh;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  scroll-margin-top: 50px;
+  height: 100%;
+  padding: 0 25px;
+}
+
+/* header */
+
+header{
+   top: 0;
+  position: sticky;
+  background-color: white;
+}
+
+.topRibbon{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1600px;
+  align-items: center;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  z-index: 1000;
+}
+
+.topLogo{
+  border: solid black 2px;
+}
+
+.topMenu{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.topMenuContent{
+  display: flex;
+  margin: auto;
+}
+
+.topMenuList{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding: 0;
+}
+
+.topMenuItem{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  
+}
+
+.topMenuLink{
+  color: #000;
+}
+.topMenuLink :hover{
+  color: #6EC1E4;
+  transition: ease-in-out 0.5s;
+}
+
+.buyButton{
+  height: 50px;
+  background-color: #6EC1E4;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #000;
+}
+
+.buyButton :hover{
+ color: whitesmoke;
+ transition: ease-in-out 0.5s;
+}
+  
+
+/* section home */
+
+.home{
+  background-color: whitesmoke;
+}
+
+.wigetContainer{
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wiget{
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 100px;
+  background-color: #6EC1E4;
+  color: white;
+  z-index: 500;
+  padding: 25px;
+  font-family:'Playfair Display', serif; ;
+}
+
+
+.homeBio{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+}
+
+
+.julkaPotret{
+  
+  height: auto;
+  max-width: 100%;
+  box-shadow: 20px 20px 60px -10px rgba(0,0,0,.4);
+}
+
+.homeBioTxt{
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.homeBioTxt h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  line-height: 1.5em;
+  
+}
+
+.homeBioTxt p{
+  line-height: 150%;
+}
+
+.seeMyWorkButton{
+  background-color: #6EC1E4;
+  color: #000;
+  padding: 25px;
+  width: fit-content;
+}
+.seeMyWorkButton:hover{
+  background-color:#000;
+  color:#6EC1E4;
+  padding: 25px;
+  width: fit-content;
+  transition: ease-in-out 0.5s;
+}
+
+
+
