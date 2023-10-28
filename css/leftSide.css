@@ -1,0 +1,67 @@
+.logoANDmenu{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.logo{
+  font-family: 'Abril Fatface', serif;
+  font-size: 5vw;
+}
+
+.topMenuList{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0;
+  align-items: center;
+}
+
+.topMenuItem{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  
+}
+
+.topMenuLink{
+  color: #000;
+}
+.topMenuLink :hover{
+  color: #6EC1E4;
+  transition: ease-in-out 0.5s;
+}
+
+.buyButton{
+  height: 25px;
+  background-color: #6EC1E4;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #000;
+}
+
+.buyButton :hover{
+ color: whitesmoke;
+ transition: ease-in-out 0.5s;
+}
+
+.bio{
+  line-height: 150%;
+  font-size: 15px;
+  text-indent: 2vw;
+  text-align: justify;
+  padding: 25px;
+  padding-top: 0;
+}
+
+.randomPicLeft{
+  display: flex;
+ justify-content: center;
+ 
+}
+.randomPicLeftItem{
+  width: 100%;
+  padding: 25px;
+}

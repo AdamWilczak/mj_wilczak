@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="icon" href="pic/pageIcon.png">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="pic/pageIcon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link href="css/style.css" rel="stylesheet">
   <link href="css/bgrd.css" rel="stylesheet">
+  <link href="css/LeftSide.css" rel="stylesheet">
   <script defer src="js/script.js"></script>
   <script defer src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
   <script defer src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
@@ -25,9 +30,10 @@
 
   <title>Document</title>
 </head>
+
 <body>
 
-  
+
   <!--BACKGROUND-->
   <ul class="background">
     <li class="backgroundItem"><img src="pic/star.png" class="backgroundStar"></li>
@@ -42,16 +48,67 @@
     <li class="backgroundItem"><img src="pic/star.png" class="backgroundStar"></li>
     <li class="backgroundItem"><img src="pic/star.png" class="backgroundStar"></li>
     <li class="backgroundItem"><img src="pic/star.png" class="backgroundStar"></li>
-   
-    
-    
   </ul>
 
 
+  <div class="mainContainer">
+    <div class="leftSide">
+      <div class="logoANDmenu">
+        <div class="logo">JULIA WILCZAK</div>
+        <div class="menu">
+          <ul class="topMenuList">
+            <a href="#" class="topMenuLink">
+              <li class="topMenuItem">Home</li>
+            </a>
+
+            <a href="#" class="topMenuLink">
+              <li class="topMenuItem">My Work</li>
+            </a>
+            <a href="#" class="topMenuLink">
+              <li class="topMenuItem">Contact</li>
+            </a>
+            <a href="#" class="buyButton">
+              <li class="buyButton">Buy Painting</li>
+            </a>
+          </ul>
 
 
-<script>
-  AOS.init();
-</script>
+
+
+
+        </div>
+      </div>
+      <div class="bio">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam dolor, odio blanditiis illo ex quidem animi
+          consequatur mollitia deserunt iste! Natus tempore, sint totam tenetur corrupti laborum! Ex, eum tenetur? Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. </p>
+          <p>Ad at libero ipsum quas temporibus et, voluptatibus ratione
+          nostrum minus, quis optio eaque sit cupiditate reprehenderit fugit debitis ab nam. Placeat.
+        </p>
+      </div>
+      <div class="randomPicLeft"><img src="pic/julka-portret1.jpg" class="randomPicLeftItem"></div>
+    </div>
+
+
+
+
+
+    <div class="rightSide">
+      <div class="content">
+        content
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
