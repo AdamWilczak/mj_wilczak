@@ -1,14 +1,26 @@
 
+.rightSide{
+  
+  max-width: 800px;
+  width: 50vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  
+}
+
+
 .content{
-  width: 100%;
+ 
   display: flex;
   justify-content: center;
-  align-items: center;
+  
 }
 
 .cavanas img {
     max-width:100%;
-    padding: 25px;
+    
+   
     
 }
 

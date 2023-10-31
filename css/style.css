@@ -16,7 +16,7 @@ a {
 }
 
 .mainContainer{
-  border: solid black 3px;
+  
   display: flex;
   width: 100vw;
   justify-content: center;
@@ -24,7 +24,7 @@ a {
 }
 
 .leftSide{
-  border: solid red 5px;
+  
   max-width: 800px;
   width: 50vw;
   display: flex;
@@ -33,11 +33,4 @@ a {
   
 }
 
-.rightSide{
-  border: solid green 5px;
-  max-width: 800px;
-  width: 50vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
