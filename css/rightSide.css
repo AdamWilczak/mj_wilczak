@@ -1,10 +1,15 @@
 
-
-.randomPicRightItem{
-  
-  padding: 25px;
+.content{
   width: 100%;
- 
- 
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.cavanas img {
+    max-width:100%;
+    padding: 25px;
+    
+}
+
+

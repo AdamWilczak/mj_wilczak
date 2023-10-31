@@ -14,31 +14,19 @@ const images = [
   "pic/randomPic/63.jpg",
   "pic/randomPic/90.jpg",
   "pic/randomPic/julka-portret.jpg",
- 
-
 ];
 
-const canvas = document.querySelector("#home");
+const showImage = function () {
+  // Pobierz losowy obraz z tablicy
+  const image = images[Math.floor(Math.random() * images.length)];
 
-// Funkcja pobierająca losowy obraz
-function getRandomImage() {
-  return images[Math.floor(Math.random() * images.length)];
-}
+  // Wyświetl obraz w wskazanym miejscu
+  const imageContainer = document.getElementById("cavanas");
+  const img = document.createElement("img");
+  img.src = image;
+  
+  imageContainer.appendChild(img);
+};
 
-// Funkcja wyświetlająca obraz
-function showImage(imageUrl) {
-  const image = new Image();
-
-  image.src = imageUrl;
-
-  image.onload = function () {
-    canvas.appendChild(image);
-  };
-
-  image.src = imageUrl;
-}
-
-// Obsługa zdarzenia kliknięcia myszy
-document.addEventListener("click", function (event) {
-  showImage(getRandomImage());
-});
+// Wyświetl losowy obraz po załadowaniu strony
+document.addEventListener("DOMContentLoaded", showImage);
