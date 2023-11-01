@@ -30,3 +30,6 @@ const showImage = function () {
 
 // Wyświetl losowy obraz po załadowaniu strony
 document.addEventListener("DOMContentLoaded", showImage);
+
+
+
