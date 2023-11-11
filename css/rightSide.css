@@ -17,9 +17,15 @@
   justify-content: center;
   
 }
-
+.cavanas{
+  display: flex;
+  justify-content: center;
+}
 .cavanas img {
     max-width:100%;
+   
+    
+  
     
    
     
